@@ -31,6 +31,12 @@
         </snapshotRepository>
     </distributionManagement>
 
+    <scm>
+<!--        <connection>scm:git:git@github.com:douglasbelinato/version-management-sample.git</connection>-->
+<!--        <url>http://github.com/user/project</url>-->
+        <developerConnection>scm:git:git@github.com:douglasbelinato/version-management-sample.git</developerConnection>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
