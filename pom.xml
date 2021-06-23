@@ -5,7 +5,7 @@
     <groupId>com.lab</groupId>
     <artifactId>version-management-sample</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
 
     <modules>
         <module>module-01</module>
@@ -33,7 +33,7 @@
 <!--        <connection>scm:git:git@github.com:douglasbelinato/version-management-sample.git</connection>-->
 <!--        <url>http://github.com/user/project</url>-->
         <developerConnection>scm:git:git@github.com:douglasbelinato/version-management-sample.git</developerConnection>
-    <tag>v1.0.5</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <build>
